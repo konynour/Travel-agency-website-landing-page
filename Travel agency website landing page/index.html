@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel agency website landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap-5.3.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="fontawesome-free-6.4.2-web/css/all.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><img src="./imgs/Logo.svg" alt="" /></a>
+      <!-- <i  class='bx bx-menu' onclick="toggleNav()" id="menu-icon"></i> -->
+      <div class="flex">
+        <i
+          class="fa-solid bx bx-menu fa-bars"
+          id="menu-icon"
+          onclick="toggleNav()"
+        ></i>
+        <nav class="navbar">
+          <div id="nav" class="ul">
+            <a href="#home" class="active">
+              Home
+              <div class="line"></div>
+            </a>
+            <a href="#aboutus">About Us</a>
+            <a href="#tour">TOUR PACKAGES</a>
+            <a href="#services">OUR SERVICES</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <div class="phone">
+        <img src="./imgs/Phone.svg" alt="" />+111 -0258211
+      </div>
+    </header>
+    <div id="home" class="container">
+      <div class="row ground">
+        <div class="col-md-6 col-sm-12">
+          <h1 class="text">
+            It's a Big World Out There, <span>Go Explore</span>
+          </h1>
+        </div>
+        <div class="col-md-6 col-sm-12 box">
+          <h4 class="text-small text-muted">
+            time tracking sowftware used by millions. a simple time <br />
+            tracker and timesheet app that lets you track work hours <br />
+            across projects.......
+          </h4>
+          <a class="btnn" href="">discover now</a>
+        </div>
+      </div>
+    </div>
+    <div class="box-1">
+      <div class="container">
+        <div class="box1 d-flex">
+          <form class="container flex flex-wrap" action="">
+            <div class="form-text">
+              <h4>from</h4>
+              <i class="fa-solid form-i fa-location-dot"></i>
+              <input
+                class="form-control"
+                placeholder="bali, indonesia"
+                type="text"
+              />
+            </div>
+            <div class="form-text">
+              <h4>to</h4>
+              <i class="fa-solid form-i fa-location-dot"></i>
+              <input
+                class="form-control"
+                placeholder="bali, indonesia"
+                type="text"
+              />
+            </div>
+            <div class="form-text">
+              <h4>dates</h4>
+              <i class="fa-regular form-i fa-calendar"></i>
+              <input
+                class="form-control"
+                placeholder="select a date range"
+                type="text"
+              />
+            </div>
+            <div class="form-text">
+              <h4>guest</h4>
+              <i class="fa-solid form-i fa-users"></i>
+              <input
+                class="form-control"
+                placeholder="number of your guest"
+                type="text"
+              />
+            </div>
+          </form>
+          <i class="fa-solid search fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+    <div id="aboutus" class="AboutUs">
+      <div class="box2">
+        <div class="left">
+          <img src="imgs/Image.png" alt="" />
+        </div>
+        <div class="right">
+          <h4>ABOUT US</h4>
+          <h1>
+            the best and most <br />
+            trusted <span>service</span>
+          </h1>
+          <p class="text-muted h5">
+            we are the largest holiday service provider in the world with <br />
+            parents and places spread all over the world by priotti-zing service
+            <br />
+            and customer satisfaction
+          </p>
+          <a href="">learn more</a>
+          <div class="flex-text justify-content-md-between d-flex">
+            <div class="text1">
+              <h2>200+</h2>
+              <h3>customer</h3>
+              <h3>& partenrs</h3>
+            </div>
+            <div class="text1">
+              <h2>500+</h2>
+              <h3>place in</h3>
+              <h3>the world</h3>
+            </div>
+            <div class="text1">
+              <h2>1k+</h2>
+              <h3>success</h3>
+              <h3>journey</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="tour" class="TOUR-PACKAGES">
+      <div class="place">
+        <h2>the <span>best place</span> for vacation</h2>
+        <div class="places d-flex">
+          <a href="" class="activet">
+            special deals
+            <div class="line2"></div>
+          </a>
+          <a href="" class="text-decoration-none text-muted">populer</a>
+          <a href="" class="text-decoration-none text-muted">recommedation</a>
+          <a href="" class="text-decoration-none text-muted">best price</a>
+        </div>
+      </div>
+      <div class="cards justify-content-between d-flex flex-sm-wrap">
+        <div class="card1">
+          <img src="imgs/card-1.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>maldives</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>hurawalhi island</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>620$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-2.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>indonesia</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>bali province</h4>
+              <p class="h6 text-muted">4 days 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>780$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-3.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>spain</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>barcelona city beach</h4>
+              <p class="h6 text-muted">4 days 4 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>850$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-4.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>maldives</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>hurawalhi island</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>620$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="cards justify-content-between d-flex">
+        <div class="card1">
+          <img src="imgs/card-5.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>canda</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>st. john's</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>620$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-6.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>maldives</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>machu picchu</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>820$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-7.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>french</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>bora bora island</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>550$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card1">
+          <img src="imgs/card-8.png" alt="" />
+          <div class="container">
+            <div class="start d-flex justify-content-between">
+              <div class="loc align-items-center d-flex">
+                <i class="fa-solid fa-location-dot"></i>
+                <h5>australia</h5>
+              </div>
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <h4>4.7</h4>
+              </div>
+            </div>
+            <div class="textt">
+              <h4>sydney opera house</h4>
+              <p class="h6 text-muted">7 days tour on 2 person</p>
+            </div>
+            <div
+              class="d-flex align-items-center justify-content-between price"
+            >
+              <h3>310$</h3>
+              <a href="">
+                view more
+                <i class="fa-solid fa-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <center>
+        <a id="services" class="view" href="">view all</a>
+      </center>
+    </div>
+    <div class="choose-us d-flex flex-wrap">
+      <img class="img-massege" src="imgs/massge right.png" alt="" />
+      <div class="text-choose">
+        <h2 class="h1">why <span>choose</span> us</h2>
+        <p class="h4 text-muted">
+          we ensure that you'll embark on a perfectly <br />
+          planned, safe vacation at a price you can afford
+        </p>
+        <a class="view" href="">learn more</a>
+      </div>
+      <div class="cards2 d-flex">
+        <div class="card2 border-line">
+          <img src="imgs/star-icon.svg" alt="" />
+          <h3>best travel agency</h3>
+          <p class="h5 text-muted">
+            travel agencies that provide round <br />
+            trip, one way, and multi trip service
+          </p>
+        </div>
+        <div class="card2 border-line">
+          <img src="imgs/dollar-icon.svg" alt="" />
+          <h3>competitive price</h3>
+          <p class="h5 text-muted">
+            The price offered are affordable starting <br />
+            from the ordinary to the exclusive.
+          </p>
+        </div>
+        <div class="card2">
+          <img src="imgs/global-icon.svg" alt="" />
+          <h3>Global Coverage</h3>
+          <p class="h5 text-muted">
+            There are many tourist attractions, <br />
+            hotels and interesting entertainment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      id="gallery"
+      class="vedios d-flex align-items-center justify-content-between"
+    >
+      <img class="child img-fluid" src="imgs/Video 2.png" alt="" />
+      <img class="master mx-4 img-fluid" src="imgs/Video 1.png" alt="" />
+      <img class="child img-fluid" src="imgs/Video 3.png" alt="" />
+    </div>
+    <div class="contact-us">
+      <div class="text-cotact">
+        <h2>
+          Contact us to review <br />
+          <span>your experience</span> with us
+        </h2>
+        <p class="text-muted h4">
+          Give us feedback and let us know what experiences you <br />
+          had while on vacation with us
+        </p>
+        <span><i class="fa-solid fa-quote-left"></i></span>
+      </div>
+      <div class="comments d-flex justify-content-between">
+        <div class="card3">
+          <p class="h5 mx-auto text-muted">
+            Wow, what a fun vacation with <br />
+            Oelinken, guided by professional <br />
+            people
+          </p>
+          <div class="picture d-flex">
+            <img src="imgs/client.jpeg" alt="" />
+            <div class="username">
+              <h4>Benjamin Robert</h4>
+              <div class="stars d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid white fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card3 hide">
+          <p class="h5 text-muted">
+            It's an amazing experience to be <br />
+            able to vacation to a new place, <br />
+            thank you Oelinken
+          </p>
+          <div class="picture d-flex">
+            <img src="imgs/client.jpeg" alt="" />
+            <div class="username">
+              <h4>Annette Black</h4>
+              <div class="stars d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid white fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card3 hide">
+          <p class="h5 text-muted">
+            At first I was lazy but that thought <br />
+            disappeared after being accompanied <br />
+            by a pleasant guide
+          </p>
+          <div class="picture d-flex">
+            <img src="imgs/client.jpeg" alt="" />
+            <div class="username">
+              <h4>Kathryn Murphy</h4>
+              <div class="stars d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid white fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card3 hide">
+          <p class="h5 text-muted">
+            New story in my life, really amazing <br />
+            and also affordable
+          </p>
+          <div class="picture d-flex">
+            <img src="imgs/client.jpeg" alt="" />
+            <div class="username">
+              <h4>Benjamin Robert</h4>
+              <div class="stars d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid white fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="our-blog">
+      <div class="start d-flex justify-content-between">
+        <div class="left">
+          <h2>our blog</h2>
+        </div>
+        <div class="right">
+          <p class="h4 text-muted">
+            Stay up to date with the latest tech <br />
+            trands and news in the pets.
+          </p>
+          <a class="view" href="">view all</a>
+        </div>
+      </div>
+      <div class="photos d-flex">
+        <div class="photo">
+          <div class="picture bg1">
+            <h5>21 june 2021</h5>
+            <img src="imgs/Image (1).png" alt="" />
+          </div>
+          <div class="text-photo">
+            <h3>
+              The Amazing Difference a Year of <br />
+              Travelling .
+            </h3>
+            <p class="h5 text-muted">
+              There isn’t a relationship around that can survive without <br />
+              trust. My relationship with my dog Peyton is deep...
+            </p>
+          </div>
+        </div>
+        <div class="photo">
+          <div class="picture bg2">
+            <h5>28 june 2021</h5>
+            <img src="imgs/Image (2).png" alt="" />
+          </div>
+          <div class="text-photo">
+            <h3>
+              Reflections on 5 Months of Travel: <br />
+              Time to Hang
+            </h3>
+            <p class="h5 text-muted">
+              Doting pet parents have a relentless need to constantly <br />
+              photograph every adorable pet moment...
+            </p>
+          </div>
+        </div>
+        <div class="photo">
+          <div class="picture bg3">
+            <h5>10 july 2021</h5>
+            <img src="imgs/Image (3).png" alt="" />
+          </div>
+          <div class="text-photo">
+            <h3>
+              How to Save Money While Visiting <br />
+              Africa .
+            </h3>
+            <p class="h5 text-muted">
+              It is easy to forget that animals are living creatures with a
+              <br />
+              beating heart.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <center>
+      <img class="logos img-fluid" src="imgs/logos.png" alt="" />
+    </center>
+    <div class="footer-bg">
+      <div class="footer d-flex flex-md-row justify-content-between">
+        <div class="left1 d-flex flex-column">
+          <img class="logo" src="imgs/Logo.svg" alt="" />
+          <p class="h5 text-muted">
+            We believe brand interaction is key in <br />
+            commu- nication. Real innovations and a positive.
+          </p>
+          <div class="social d-flex justify-content-evenly">
+            <img src="imgs/twitter.svg" alt="" />
+            <img src="imgs/insta.svg" alt="" />
+            <img src="imgs/youtub.svg" alt="" />
+          </div>
+        </div>
+        <div class="links d-flex justify-content-between">
+          <div class="left2">
+            <h3>about us</h3>
+            <div class="a d-flex flex-column">
+              <a class="text-muted" href="">features</a>
+              <a class="text-muted" href="">FQS's</a>
+              <a class="text-muted" href="">news</a>
+              <a class="text-muted" href="">Pricing</a>
+            </div>
+          </div>
+          <div class="bottom">
+            <h3>company</h3>
+            <div class="a d-flex flex-column">
+              <a class="text-muted" href="">Core values</a>
+              <a class="text-muted" href="">Partner w/ us</a>
+              <a class="text-muted" href="">Blog</a>
+              <a class="text-muted" href="">Contact</a>
+            </div>
+          </div>
+          <div class="right1">
+            <h3>support</h3>
+            <div class="a d-flex flex-column">
+              <a class="text-muted" href="">Support centes</a>
+              <a class="text-muted" href="">Feedback</a>
+              <a class="text-muted" href="">Accessibility</a>
+            </div>
+          </div>
+        </div>
+        <div class="right2">
+          <h3>get in touch</h3>
+          <form action="">
+            <input
+              class="form-control"
+              placeholder="enter your email"
+              type="text"
+            />
+          </form>
+          <a href="">get access</a>
+        </div>
+      </div>
+      <hr />
+      <div class="footer d-flex justify-content-between">
+        <div class="left">
+          <h3 class="sm">TravelAgent © 2022 All Right Reserved</h3>
+        </div>
+        <div class="right a">
+          <a style="margin-right: 15px" class="text-muted" href=""
+            >Terms of Service</a
+          >
+          <a class="text-muted" href="">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
